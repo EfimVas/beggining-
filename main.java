@@ -19,7 +19,7 @@ public class Main
                 System.out.print("Доступ запрещен, введите заново: ");
                 String pass2 = scan.nextLine();
             };
-                if (pass2.equals("vas")){
+                if (pass2.equals("vas")){ //надо подумать тут
                     System.out.print("Код верный, добро пожаловать");
                 } else {
                     System.out.print("Код неверный, начат отсчет самоуничтожения");   
